@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'robotoo', sans-serif;
+}
+
+.container{
+    box-sizing: border-box;
+    display: flex;
+    height: 100vh;
+}
+
+/* sidebar-kiri */
+
+.sidebar-kiri{
+    width: 360px ;
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: #4A70F6;
+}
+
+.logo{
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    border-bottom: 2px solid white;
+    padding-bottom: 10px;
+}
+
+.sidebar-kiri .menu{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sidebar-kiri ul{
+    list-style: none;
+    font-size: 20px;
+    color: white;
+}
+
+.sidebar-kiri ul li{
+    width: 100%;
+    height: 65px;
+    margin-bottom: 10px;
+    align-items: center;
+    display: flex;
+}
+
+.sidebar-kiri ul li a{
+    display: flex;
+    text-decoration: none;
+    color: white;
+}
+
+.sidebar-kiri ul li .icon-menu{
+    width: 40px ;
+}
+
+.sidebar-kiri ul li img{
+    width: 20px;
+}
+
+.sidebar-kiri ul li:last-child img{
+    width: 10px;
+}
+
+/* akhir sidebar */
+
+/* content */
+.content{
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.content .profil{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #6183fd;
+    color: white;
+    padding:10px 30px 10px 10px;
+    box-sizing: border-box;
+}
+
+.content .profil img{
+    width: 50px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+.data, .judul{
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.judul{
+    display: flex;
+    align-items: center;
+}
+
+.judul h2{
+    border-bottom: 2px solid black;
+}
+
+.judul img{
+    width: 30px;
+    margin-right: 10px;
+}
+
+.data{
+    display: flex;
+    width: 1200px;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.data .kotak1, .data .kotak2, .data .kotak3{
+    width: 300px;
+    height: 280px; 
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.data .kotak1 h3, .data .kotak2 h3, .data .kotak3 h3{
+    font-size: 30px;
+}
+
+.jantung, .paru-paru, .temperature{
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#suhu1, #Heartbeet1, #SO1{
+    font-size: 50px;
+}
+
+.jantung img, .paru-paru img{
+    width: 30px;
+    height: 28px;
+}
+
+.temperature img{
+    width: 15px;
+    height: 28px;
+}
+
+.kotak1{
+    background-color: #3186B2;
+}
+
+.kotak2{
+    background-color: #0FC9E7;
+}
+
+.kotak3{
+    background-color: #7C6FFF;
+}

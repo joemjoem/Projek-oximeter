@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'robotoo', sans-serif;
+}
+
+/* navbar */
+nav{
+    box-sizing: border-box;
+    padding: 10px 8%;
+    background-color: #4A70F6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img{
+    width: 30px;
+}
+
+.navbar{
+    width: 50%;
+}
+
+.navbar ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar ul li{
+    width: 98px;
+    height: 38px;
+    border: 1px solid #4A70F6;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.navbar ul li:hover{
+    border-color: white;
+}
+
+/* akhir navbar */
+
+/* banner */
+.background{
+    width: 100%;
+    height: 590px;
+    background-color: #4A70F6;
+}
+
+.baner{
+    width: 100%;
+    height: 560px;
+    background-image:url('../img/image.png');
+    background-size: cover;
+    background-position: center;
+}
+/* akhir banner */
+
+/* form login dan daftar */
+.login{
+    width: 350px;
+    height: 500px;
+    background-color: #4A70F6;
+    color: white;
+    position: absolute;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 3px 3px 20px 0.5px black;
+    left: 150px;
+    top: 100px;
+}
+
+.login .NIK, .login form{
+    margin-top: 20px;
+}
+
+
+hr{
+    color: white;
+}
+
+.login input{
+    border-radius: 5px;
+    width: 100%;
+    height: 30px;
+}
+
+.login button{
+    width: 100%;
+    height: 40px;
+    font-size:20px;
+    color: white;
+    border: 2px solid white;
+    background-color: #4A70F6;
+    border-radius: 5px;
+}
+
+.login form button{
+    margin-top: 20px;
+}
+
+.login .button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.login .button button{
+    margin-top: 20px;
+}
+
+.login .button button a{
+    color: white;
+    text-decoration: none;
+
+}
+
+.login h2{
+    margin-bottom: 10px;
+}
+/* akhir login */
+
+/* content */
+.content{
+    align-items: center;
+    box-sizing: border-box;
+    padding-top: 30px;
+    padding-left: 20%;
+    padding-right: 8%;
+}
+
+/* css ini untuk mengatur tampilan h2 pada setiap content */
+.deskripsi h2, .layanan h2{
+    width: 150px;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #4A70F6;
+}
+
+/* css untuk mengatur kotak pada bagian layanan dan bantuan */
+.content .text-deskripsi, .bantuan .text-bantuan{
+    padding: 10px;
+    box-sizing: border-box;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+}
+
+.text-deskripsi p{
+    margin-top: 10px;
+    line-height: 25px;
+}
+/* akhir content */
+
+
+/* layanan */
+.layanan .daftar{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.layanan .kotak1, .layanan .kotak2, .layanan .kotak3{
+    width: 180px;
+    height: 200px; 
+    background-color: #4A70F6;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.layanan .kotak1 h3, .layanan .kotak2 h3, .layanan .kotak3 h3{
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+}
+
+.layanan .kotak1 img, .layanan .kotak2 img{
+    width: 50px;
+}
+
+.layanan .kotak3 img{
+    width: 30px;
+}
+
+.layanan, .bantuan{
+    margin-top: 20px;
+}
+/* akhir layanan */
+
+/* bantuan */
+.bantuan{
+    background-color: #4A70F6;
+    height: 200px;
+    color: white;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.bantuan .footer-bawah{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 10px auto;
+}
+
+.bantuan .footer-bawah img{
+    width: 80px;
+}
+
+.bantuan .footer-bawah hr{
+    width: 80%;
+    height: 0;
+    border: 2px solid white;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'robotoo', sans-serif;
+}
+
+/* navbar */
+nav{
+    box-sizing: border-box;
+    padding: 10px 8%;
+    background-color: #4A70F6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img{
+    width: 30px;
+}
+
+.navbar{
+    width: 50%;
+}
+
+.navbar ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar ul li{
+    width: 98px;
+    height: 38px;
+    border: 1px solid #4A70F6;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.navbar ul li:hover{
+    border-color: white;
+}
+
+/* akhir navbar */
+
+/* banner */
+.background{
+    width: 100%;
+    height: 583px;
+    background-color: #4A70F6;
+}
+
+.baner{
+    width: 100%;
+    height: 560px;
+    background-image:url('../img/image.png');
+    background-size: cover;
+    background-position: center;
+}
+/* akhir banner */
+
+/* form login dan daftar */
+.login{
+    width: 650px;
+    height: 400px;
+    background-color: #4A70F6;
+    color: white;
+    position: absolute;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 3px 3px 20px 0.5px black;
+    left: 150px;
+    top: 150px;
+}
+
+form .daftar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.pil-kiri, .pil-kanan{
+    width: 280px;
+}
+
+.login .NIK, .login form, .login button, .alamat, .kota{
+    margin-top: 20px;
+}
+
+
+hr{
+    color: white;
+}
+
+.login input{
+    border-radius: 5px;
+    width: 100%;
+    height: 30px;
+}
+
+.login button{
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    color: white;
+    border: 2px solid white;
+    background-color: #4A70F6;
+    border-radius: 5px;
+}
+
+.login .button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pilihan ul {
+  display: flex;
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.pilihan ul li{
+    width: 100px;
+    height: 40px;
+    margin-right: 10px;
+    text-align: center;
+    border: 1px solid #4A70F6;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.pilihan ul li:last-child{
+    border: 1px solid white;
+}
+
+.pilihan ul li a{
+    text-decoration: none;
+    color: white;
+    line-height: 40px;
+}
+
+.pilihan ul li:first-child:hover{
+    border: 1px solid white;
+}
+/* akhir login */
