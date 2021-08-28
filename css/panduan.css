@@ -10,65 +10,7 @@
     height: 100vh;
 }
 
-/* sidebar-kiri */
-
-.sidebar-kiri{
-    width: 360px;
-    box-sizing: border-box;
-    padding: 10px;
-    background-color: #4A70F6;
-
-}
-
-.logo{
-    text-align: center;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 30px;
-    border-bottom: 2px solid white;
-    padding-bottom: 10px;
-}
-
-.sidebar-kiri .menu{
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.sidebar-kiri ul{
-    list-style: none;
-    font-size: 20px;
-    color: white;
-}
-
-.sidebar-kiri ul li{
-    width: 100%;
-    height: 65px;
-    margin-bottom: 10px;
-    align-items: center;
-    display: flex;
-}
-
-.sidebar-kiri ul li a{
-    display: flex;
-    text-decoration: none;
-    color: white;
-}
-
-.sidebar-kiri ul li .icon-menu{
-    width: 40px ;
-}
-
-.sidebar-kiri ul li img{
-    width: 20px;
-}
-
-.sidebar-kiri ul li:last-child img{
-    width: 10px;
-}
-
-/* akhir sidebar */
+@import "sidebar.css";
 
 /* content */
 .content{
